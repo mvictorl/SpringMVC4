@@ -8,7 +8,7 @@
     <artifactId>Spring-MVC4</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <!-- Added [begin] -->
+    <!-- ***** Added [begin] ***** -->
     <properties>
         <!-- Generic properties -->
         <java.version>1.8</java.version>
@@ -62,6 +62,35 @@
             <artifactId>jsp-api</artifactId>
             <version>${jsp.version}</version>
         </dependency>
+
+        <!-- ***** Added part 2 [begin] ***** -->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.3.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.5</version>
+        </dependency>
+
+        <!-- Excel View -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.16</version>
+        </dependency>
+
+        <!-- PDF View -->
+        <dependency>
+            <groupId>com.lowagie</groupId>
+            <artifactId>itext</artifactId>
+            <version>2.1.7</version>
+        </dependency>
+        <!-- ***** Added part 2 [end] ***** -->
+
     </dependencies>
 
     <build>
@@ -81,5 +110,5 @@
             </plugin>
         </plugins>
     </build>
-    <!-- Added [end] -->
+    <!-- ***** Added [end] ***** -->
 </project>

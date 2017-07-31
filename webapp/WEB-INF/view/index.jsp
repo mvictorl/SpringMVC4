@@ -35,7 +35,7 @@
           <a href="about.html">About</a>
         </li>
         <li>
-          <a href="services.html">Lessons</a>
+          <a href="file.html">Files</a>
         </li>
         <li>
           <a href="contact.html">Contact</a>
